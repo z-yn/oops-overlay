@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<layman>
+   <overlay
+      type    = "git"
+      src     = "https://github.com/z-yn/oops-overlay.git"
+      contact = "zyn_private@hotmail.com"
+      status  = "unofficial"
+      name    = "zouyanan">
+      <link>http://github.com/y2kbadbug/gentoo-overlay</link>
+      <description>zyn's Personal Gentoo Overlay</description>
+   </overlay>
+</layman>
