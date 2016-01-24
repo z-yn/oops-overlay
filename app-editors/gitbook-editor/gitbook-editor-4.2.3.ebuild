@@ -24,6 +24,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}
+	gnome-base/gconf
 	"
 
 S="${WORKDIR}"
