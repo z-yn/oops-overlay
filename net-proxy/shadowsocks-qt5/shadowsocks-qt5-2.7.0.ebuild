@@ -35,6 +35,6 @@ pkg_postrm() {
 	gnome2_icon_cache_update
 }
 
-#src_compile() {
-#	eqmake5 INSTALL_PREFIX="${D}"/usr
-#}
+src_compile() {
+	eqmake5 INSTALL_PREFIX="${D}"/usr
+}
