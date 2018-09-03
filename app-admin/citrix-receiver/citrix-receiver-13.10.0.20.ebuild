@@ -20,7 +20,7 @@ IUSE=""
 RESTRICT="strip"
 
 DEPEND_COMMON=""
-RDEPEND="net-libs/webkit-gtk:2"
+RDEPEND="net-libs/webkit-gtk:4"
 DEPEND=""
 
 S="${WORKDIR}"
