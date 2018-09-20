@@ -17,17 +17,17 @@ src_install() {
 	insinto "/opt/${P}"
 	exeinto "/opt/${P}"
 	doins -r \
-		"artifacts.xml" \
+		"configuration" \
 		"dbeaver.desktop" \
 		"dbeaver.ini" \
 		"dbeaver.png" \
-		"icon.xpm" \
-		"readme.txt" \
-		"configuration" \
 		"features" \
+		"icon.xpm" \
 		"licenses" \
+		"META-INF" \
 		"p2" \
-		"plugins"
+		"plugins" \
+		"readme.txt"
 	doexe "dbeaver"
 	dosym "/opt/${P}/dbeaver" "/usr/bin/dbeaver"
 }
