@@ -7,14 +7,13 @@ inherit eutils pax-utils
 DESCRIPTION="Multiplatform Visual Studio Code from Microsoft"
 HOMEPAGE="https://code.visualstudio.com"
 SRC_URI="
-     x86? (  https://vscode-update.azurewebsites.net/${PV}/linux-ia32/stable -> ${P}_i386.tar.gz )
      amd64? ( https://vscode-update.azurewebsites.net/${PV}/linux-x64/stable -> ${P}_amd64.tar.gz )
      "
 RESTRICT="mirror strip"
 
 LICENSE="Microsoft"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="
